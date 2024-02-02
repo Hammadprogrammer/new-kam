@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        color: orange;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-left: 200px;
+        display: flex;
+       font-size: 40px;
+      
+    }
+    span{
+        color: black;
+    }
+    p{
+ font-size: 14px;
+   position: absolute;
+top: 40px;
+left: 7px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-left: 200px;
+font-weight: bold;
+
+ 
+    }
+    h2{
+        padding: 50px;
+        display: flex;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        float: right;
+       position: absolute;
+       top: 10px;
+       right: 220px;
+      
+     
+        
+    }
+    li{
+        padding: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-weight: bold;
+    
+    }
+    li:hover{
+text-decoration: underline;
+    }
+    .skil{
+        margin-top: 80px;
+        font-size: 40px;
+        color:orangered;
+    }
+    .a{
+        font-size: 15px;
+        margin-top: 220px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .A{
+        color: black;
+        margin-left: 10px;
+    }
+    .door{
+        color:orangered;
+    }
+    .put{
+        width:  25vw;
+        height: 55vh;
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+      right: 100px;
+        border-radius: 22px;
+    }
+    #book{
+color: white;
+margin-left: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+font-weight: bold;
+    }
+    input{
+        width: 90%;
+        height: 7%;
+        margin-bottom: 3px;
+        margin-left: 15px;
+        margin-top: 7px;
+        border-radius: 10px;
+    }
+    select{
+        width: 90%;
+        height: 7%;
+        margin-top: 10px;
+        margin-left: 15px;
+        border-radius: 10px;
+        
+    }
+    button{
+        margin-left: 15px;
+        width: 90%;
+        height: 7%;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: orange;
+    }
+    button:hover{
+        background-color: rgb(138, 92, 7);
+    }
+  .Name{
+    width: 90%;
+        height: 7%;
+        margin-top: 10px;
+        margin-left: 15px;
+        border-radius: 10px;
+  }
+ .address{
+    margin-top: 10px;
+    border-radius: 10px;
+ }
+ button{
+    width: 90%;
+        height: 7%;
+        margin-top: 7px;
+        margin-left: 15px;
+        border-radius: 10px;
+ }
+ .karachi{
+    margin-left: 200px;
+    width: 200PX;
+    font-size: 20px;
+    margin-top: 150px;
+    height: 40px;
+ }
+ .hammad{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+ }
+ .step3{
+    width: 100vw;
+    height: 180vh;
+    background-color: whitesmoke;
+    margin-top: 200px;
+ }
+ .step3 h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .step4{
+   
+    margin-top:630px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+ }
+ .step5{
+    width: 10vw;
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    border-radius: 10px;
+   float: left;
+   margin-left: 100px;
+ }
+ .step5 img{
+    width: 40%;
+    height: 40%;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .step5 h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+ }
+ .step6{
+    width: 10vw;
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+ }
+ .step6 img{
+    width: 40%;
+    height: 40%;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .step6 h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+ }
+   
+
+ .step7{
+    width: 10vw;
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 80px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+ }
+ .step7 img{
+    width: 40%;
+    height: 40%;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .step7 h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+ }
+
+ .step8{
+    width: 10vw;
+    height: 20vh;
+    background-color: white;
+    margin-top: 80px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+ }
+ .step8 img{
+    width: 40%;
+    height: 40%;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .step8 h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+ }
+ .step9{
+    width: 10vw;
+    height: 20vh;
+    background-color:white;
+    margin-top: 80px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+ }
+ .step9 img{
+    width: 40%;
+    height: 40%;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .step9 h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+ }
+ .step10{
+    width: 10vw;
+    height: 20vh;
+    background-color:white;
+    margin-top: 80px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+ }
+ .step10 img{
+    width: 40%;
+    height: 40%;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .step10 h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+ }
+ .step11{
+    width: 10vw;
+    height: 20vh;
+    background-color:white;
+    margin-top: 80px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+ }
+ .step11 img{
+    width: 40%;
+    height: 40%;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .step11 h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+ }
+ .step12{
+    width: 10vw;
+    height: 20vh;
+    background-color: white;
+    margin-top: 80px;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+ }
+ .step12 img{
+    width: 40%;
+    height: 40%;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .step12 h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+ }
+ .step13{
+width: 100vw;
+height: 10vh;
+background-color: whitesmoke;
+margin-top: 250px;
+ }
+ .step13 h6{
+   font-size: 30px;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .step13 h5{
+   font-size: 20px;
+   text-align: center;
+   font-weight: normal;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .step14{
+   width: 20vw;
+   height: 40vh;
+   background-color: rgb(224, 215, 215);
+   margin-top: 10px;
+   margin-left: 120px;
+   float: left;
+   border-radius: 20px;
+ }
+
+ .step14 img{
+   width: 100%;
+   height: 100%;
+   
+ }
+ 
+ .step15{
+   width: 20vw;
+   height: 40vh;
+   background-color: aqua;
+   margin-top: 30px;
+   margin-left: 10px;
+   float: left;
+   border-radius: 20px;
+ }
+ .step15 img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+ }
+ .step16{
+   width: 20vw;
+   height: 40vh;
+   background-color: aqua;
+   margin-top: 10px;
+   margin-left: 10px;
+   float: left;
+   border-radius: 20px;
+ }
+ .step16 img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+ }
+ .step17{
+   width: 20vw;
+   height: 40vh;
+   background-color: aqua;
+   margin-top: 30px;
+   margin-left: 10px;
+   float: left;
+   border-radius: 20px;
+ }
+ .step17 img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+ }
+
+ .step18{
+   width: 20vw;
+   height: 40vh;
+   background-color: rgb(224, 215, 215);
+   margin-top: 10px;
+   margin-left: 120px;
+   float: left;
+   border-radius: 20px;
+ }
+
+ .step18 img{
+   width: 100%;
+   height: 100%;
+   
+ }
+ 
+ .step19{
+   width: 20vw;
+   height: 40vh;
+   background-color: aqua;
+   margin-top: 30px;
+   margin-left: 10px;
+   float: left;
+   border-radius: 20px;
+ }
+ .step19 img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+ }
+ .step20{
+   width: 20vw;
+   height: 40vh;
+   background-color: aqua;
+   margin-top: 10px;
+   margin-left: 10px;
+   float: left;
+   border-radius: 20px;
+ }
+ .step20 img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+ }
+ .step21{
+   width: 20vw;
+   height: 40vh;
+   background-color: aqua;
+   margin-top: 30px;
+   margin-left: 10px;
+   float: left;
+   border-radius: 20px;
+ }
+ .step21 img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+ }
+ .step22{
+   width: 20vw;
+   height: 40vh;
+   background-color: rgb(224, 215, 215);
+   margin-top: 10px;
+   margin-left: 120px;
+   float: left;
+   border-radius: 20px;
+ }
+
+ .step22 img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+   
+ }
+ 
+ .step23{
+   width: 20vw;
+   height: 40vh;
+   background-color: aqua;
+   margin-top: 30px;
+   margin-left: 10px;
+   float: left;
+   border-radius: 20px;
+ }
+ .step23 img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+ }
+ .step24{
+   width: 20vw;
+   height: 40vh;
+   background-color: aqua;
+   margin-top: 10px;
+   margin-left: 10px;
+   float: left;
+   border-radius: 20px;
+ }
+ .step24 img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+ }
+ .step25{
+   width: 20vw;
+   height: 40vh;
+   background-color: aqua;
+   margin-top: 30px;
+   margin-left: 10px;
+   float: left;
+   border-radius: 20px;
+ }
+ .step25 img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+ }
+
+ .val{
+   font-size: 20px;
+   text-align: center;
+   font-weight: normal;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ iframe{
+   margin: 10px;
+   border-radius: 20px;
+ }
+ .kam{
+   font-size: 20px;
+   margin-left: 150px;
+   float: left;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .kaj{
+   font-size: 20px;
+   margin-left: 130px;
+   float: left;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .nimra{
+   font-size: 20px;
+   margin-left: 190px;
+   float: left;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+.happy{
+   font-size: 15px;
+   margin-left: 150px;
+   font-weight: normal;
+   float: left;
+}
+.sit{
+   font-size: 15px;
+  margin-left: 120px;
+   font-weight: normal;
+   float: left;
+}
+.para{
+   font-size: 15px;
+margin-left:200px ;
+   font-weight: normal;
+   float: left;
+}
+.cap{
+   width: 100vw;
+   height: 100vh;
+   background-color: rgb(255, 255, 255);
+   margin-top: 100px;
+   margin-left: 100px;
+}
+.cap img{
+   width: 50vw;
+   height: 100vh;
+ margin-left: 50px;
+ float: left;
+}
+
+.mob{
+   width: 46vw;
+   height: 100vh;
+   background-color: rgb(255, 255, 255); 
+   float: right;
+}
+.mob h6{
+   font-size: 30px;
+   margin-top: 150px;
+   margin-right: 100px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mob h5{
+   font-size: 20px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: normal;
+}
+.mob h4{
+   font-size: 20px;
+   margin-top: 20px;
+ 
+}
+.abc{
+   width: 100vw;
+   height: 70vh;
+   background-color: rgb(255, 255, 255);
+   margin-top: 100px;
+ float: left;
+
+}
+.abc img{
+   width: 20%;
+   height: 100%;
+   margin-left: 120px;
+   float: left;
+}
+.abc h6{
+   font-size: 30px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 200px;
+
+}
+.abc h5{
+   font-size:20px ;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: normal;
+   margin-top: 10px;
+  
+}
+.abc button{
+   width: 150px;
+   height: 50px;
+   font-size: 25px;
+   border-radius: 0px;
+   background-color: black;
+   color: white;
+   border: solid black;
+}
+.abc button{
+   width: 150px;
+   height: 50px;
+   font-size: 25px;
+   border-radius: 0px;
+   background-color: black;
+   color: white;
+   border: solid black;
+   float: left;
+}
+.abc button:hover{
+   background-color: rgb(26, 24, 24);
+}
+ .abc .scan{
+   width: 14%;
+   height: 30%;
+  
+position: absolute;
+top:  3600px;
+right:300px;
+}
+.end{
+   width: 90vw;
+   height: 50vh;
+   background-color: rgb(255, 255, 255);
+   float: left;
+
+}
+.end h6{
+   text-align: center;
+   font-size: 30px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 20px;
+
+}
+.end img{
+   width: 10%;
+   height: 40%;
+   margin-left: 70px;
+   margin-top: 20px;
+   justify-content: center;
+}
+.cu h6{
+   text-align: center;
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 10px;
+}
+.last{
+   width: 100vw;
+   height: 70vh;
+   background-color: rgb(0, 0, 0);
+position: absolute;
+top:  4650px;
+left:  0px;
+}
+.last h6{
+   font-size: 40px;
+  margin-top: 100px;
+  margin-left: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:orangered
+}
+.last h2{
+   font-size: 18px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   position: absolute;
+top: 90px;
+left:  115px;
+color: white;
+}
+.last h5{
+   color: white;
+   margin-left: 155px;
+   margin-top: 25px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: normal;
+}
+.last h4{
+   color: white;
+   margin-left: 155px;
+   margin-top: 50px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   float: left;
+   
+}
+.face{
+   height: 35px;
+   width: 35px;
+ margin-top: 40px;
+ margin-left: 20px;
+ color: white;
+  
+}
+.logo{
+   height: 35px;
+   width: 35px;
+   margin-left: 10px;
+   color: white;
+ 
+}
+.last h3{
+  margin-left: 155px;
+  margin-top: 40px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;}
+
+  .last .com{   font-size: 30px;
+   color: white;
+   margin-left: 450px;
+   margin-top: 80px;}
+   .last .us{
+      font-size: 15px;
+   color: white;
+   margin-left: 450px;
+   margin-top: 130px;
+   font-weight: normal;
+   }
+   .us:hover{
+      text-decoration: underline;
+   }
+   .last .customer{
+      font-size: 30px;
+   color: white;
+   margin-left: 700px;
+   margin-top: 80px;
+   }
+   .last .work{
+      font-size: 15px;
+   color: white;
+   margin-left: 705px;
+   margin-top: 130px;
+   font-weight: normal;
+   }
+   .work:hover{
+      text-decoration: underline;
+   }
+   .last .Support{
+      font-size: 30px;
+   color: white;
+   margin-left: 900px;
+   margin-top: 80px;
+   }
+   .last .pk{
+      font-size: 15px;
+   color: white;
+   margin-left: 905px;
+   margin-top: 130px;
+   font-weight: normal;
+   }
+
+ .last .ha{
+   font-size: 20px;
+   color: white;
+   margin-left: 880px;
+   margin-top: 300px;
+ }  
+ .ha .apple{
+   width: 40px;
+   height: 40px;
+ }
+ .apple{
+   width: 40px;
+   height: 40px;
+  position: absolute;
+  right: 360px;
+  bottom: 140px;
+  color: white;
+ }
+ .and{
+   width: 40px;
+   height: 40px;
+  position: absolute;
+  right: 310px;
+  bottom: 140px;
+  color: white;
+ }
+ .privacy{
+   margin-left: 980px;
+   margin-top: 350px;
+   color: white;
+ }
+ .trem{
+  
+   margin-left: 1087px;
+   margin-top: 350px;
+   color: white;
+ }
+ .trem:hover{
+   text-decoration: underline;
+ }
+ .last span{
+   color: white;
+ }
+
+ 
+
+
+
+  
+</style>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<body>
+    <h1>kam<span>Kaj</span> </h1> <br>
+    <p>Making Lives Easler</p>
+
+
+
+    <div class="put">
+         <h2 id="book">Book your service</h2>
+       
+        <input type="text" placeholder="Name"> <br>
+        <input type="number" placeholder="03XXXXXXXXX"> <br>
+        <select name="devices" class="Name">
+            <option value="ipod">AC install and repair service</option>
+            <option value="radio">Radio</option>
+            <option value="computer">cleaning</option>
+           </select>
+        <br>
+           <select name="devices" class="Name">
+            <option value="ipod">AC install and repair service</option>
+            <option value="radio">Radio</option>
+            <option value="computer">cleaning</option>
+           </select> <br>
+     <input type="Address" placeholder="Address" class="address"> <br>
+     <button>Request a call </button>
+    
+    
+
+
+    
+    </div>
+    <ul>
+        <li>Why KamKaj</li>
+        <li>Track my order</li>
+        <li>Work with us </li>
+    </ul>
+    
+  <h1 class="skil">Skilled Professional<spna class="A">         At Your </h1 ></spna> <h1 class="door"> Doorstep.</h1>
+  <p class="a">Kam Kaj is a leading multiple service provider company catering to your 360 needs with quality guaranteed. <br>
+
+    The aim and priority of Kam Kaj are to add value to our consumers' lives by providing smart solutions to all <br> their problems. Our pride is providing the most extensive range of services. From home maintenance to <br> personal assistance. We make sure that your safety is never compromised. This is why we hire all the staff <br> under the roof of Kam Kaj, just for your satisfaction.</p>
+    
+
+<select name="devices" class="karachi">
+    <option value="ipod">karachi</option>
+    <option value="radio">lahore</option>
+    <input type="text" placeholder="Choose a type of servide" class="hammad">
+   </select> 
+
+
+
+
+   <div class="step3">
+<h3>Our Top Services</h3>
+<p class="step4">Kam Kaj provides ultimate installations, repairs, maintenance, and grooming services at your doorstep.</p>
+  
+
+
+
+<Div class="step5">
+<img src="home" alt="">
+<h6>Home <br> Appliance <br>Repaire</h6>
+
+</Div>
+
+
+<Div class="step6">
+<img src="salon" alt="">
+<h6>Salon At <br>Home</h6>
+</Div>
+
+
+<Div class="step7">
+    <img src="clean.png" alt="">
+    <h6>cleaning <br> Service</h6>
+</Div>
+<Div class="step8">
+    <img src="ele.png" alt="">
+    <h6>Electrical <br>Service</h6>
+</Div>
+<Div class="step9">
+    <img src="cctv.png" alt="">
+    <h6>CCTV <br>Service</h6>
+</Div>
+<Div class="step10">
+    <img src="p.png" alt="">
+    <h6>Plumbing <br>Service</h6>
+</Div>
+<Div class="step11">
+    <img src="post.png" alt="">
+    <h6>Pest <br>Control <br>Service</h6>
+</Div>
+<Div class="step12">
+   <img src="ca.png" alt="">
+   <h6>Carpenter <br>Service</h6>
+</Div>
+
+<div class="step13">
+   <h6>Recommended Services</h6>
+   <h5>Services highly recommended by our valuable customers.</h5>
+</div>
+
+
+
+<div class="step14">
+ <div class="g"><img src="men" alt="">
+<h6>Geyser</h6></div>
+</div>
+<div class="step15">
+   <img src="clean" alt=""  >
+</div>
+<div class="step16"><img src="work" alt=""></div>
+<div class="step17"><img src="deep" alt=""></div>
+
+
+
+<div class="step18">
+   <img src="machine" alt="">
+  </div>
+  <div class="step19">
+     <img src="fri" alt=""  >
+  </div>
+  <div class="step20"><img src="Hand" alt=""></div>
+  <div class="step21"><img src="pest" alt=""></div>
+
+  <div class="step22">
+   <img src="eyes" alt="">
+  </div>
+  <div class="step23">
+     <img src="handwash" alt=""  >
+  </div>
+  <div class="step24"><img src="face" alt=""></div>
+  <div class="step25"><img src="tank" alt=""></div>
+</div>
+<div class="cu">
+<h6 class="Customer">Customer Experience</h6>
+<h5 class="val">Valuable customers sharing their reviews after availing our services.</h5>
+</div>
+<br>
+<br>
+<center>
+<iframe width="430" height="315" src="https://www.youtube.com/embed/SGaZLRcxxEY?si=rxOPB6tEIXFktu58" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+ gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+ <iframe width="430" height="315" <iframe width="560" height="315" src="https://www.youtube.com/embed/n2d1Mihdv4E?si=UonWfQRp_-FNcyFL" 
+ title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-
+ picture; web-share" allowfullscreen></iframe></iframe>
+
+ <iframe width="430" height="315" src="https://www.youtube.com/embed/X2QojIxUFP4?si=5hXI755OLxld1qjn" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+   allowfullscreen></iframe>
+</center>
+<h6 class="kam">Happy customer of kam kaj saim....</h6>
+<h6 class="kaj">Happy customer youtuber Raza....</h6>
+<h6 class="nimra">Happy customer Nimra Shayid</h6>
+
+<h6 class="happy">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Quasi fugit consequuntur aspernaturesse repudiandae  <br> inventore....</h6>
+<h6 class="sit">Lorem, ipsum dolor sit amet consectetur adipisi
+    elit. <br>otam tenetur explicabo sint iusto...</h6>
+<h6 class="para">Lorem, ipsum dolor sit amet consectetur adipisicing <br> elit.... </h6>
+
+
+
+<div class="cap">
+  <img src="cap.png" alt="">
+
+  <div class="mob">
+   <h6>Why Choose Kam Kaj?</h6>
+   <h5>Kam Kaj is a value addition which covers all 360 services under <br> one platform. Our motive is to provide best services to our <br> corporate, commercial, and residential customers. Our main key <br> components to success are :</h5>
+  <h4>house staff
+   Vetted and background-checked in house staff</h4>
+   <h4>
+      High-Tech and Most Advanced Equipment</h4>
+      <h4>
+         High-Tech and Most Advanced Equipment</h4>
+      <h4>
+         High-Tech and Most Advanced Equipment</h4>
+         <h4>
+            High-Tech and Most Advanced Equipment</h4>
+      
+
+
+</div>
+
+<div class="abc">
+<img src="mob.png" alt="">
+<h6>Download Kam Kaj App</h6>
+<h5>Make Your Life Easier by Downloading Kam Kaj App</h5>
+<button>Gogle Play</button>
+<button>App Store</button>
+<img src="scan.png" alt="" class="scan">
+</div>
+
+
+<div class="end">
+<h6>Trusted by Leading Organizations</h6>
+<img src="loin.png" alt="">
+<img src="fay.png" alt="">
+<img src="out filter.png" alt="">
+<img src="coats-logo.png" alt="">
+<img src="bor.png" alt="">
+<img src="dcc.png" alt="">
+<img src="ahmed.png" alt="">
+<img src="indus.png" alt="">
+<img src="jazz.png" alt="">
+<img src="psx.png" alt="">
+<img src="pro.png" alt="">
+<img src="pta.png" alt="">
+<img src="seylani.png" alt="">
+<img src="spt.png" alt="">
+<img src="service.png" alt="">
+<img src="school.png" alt="">
+<img src="sup.png" alt="">
+<img src="toyota.png" alt="">
+</div>
+<div class="last">
+<h6>Kam <span >Kaj</h6></span>
+<h2>Making live Easter</h2>
+<h5>When it comes to Kam Kaj, the object of the <br> word 'Kam' reflects our motive to add value <br> to our customers' lives by providing all the <br>
+    essential services in their day-to-day lives. <br> On the other hand, the word 'Kaj' highlights <br>
+     our motive to reduce the unemployment <br>from Pakistan by hiring in-house staff whom <br> we train in any given skills.</h5>
+     <h4>Follow us  </h4>
+     <ion-icon name="logo-facebook" class="face"></ion-icon>
+     <ion-icon name="logo-instagram"class="logo"></ion-icon>
+     <ion-icon name="logo-youtube"class="logo"></ion-icon>
+     <ion-icon name="logo-pinterest"class="logo"></ion-icon>
+     <ion-icon name="logo-twitter"class="logo"></ion-icon>
+     <ion-icon name="logo-linkedin"class="logo"></ion-icon>
+     <h3>Copyright © 2017 - 2024 Kam Kaj. Kam Kaj logo and related marks are registered Trademarks of Kam Kaj.</h3>
+
+     <p class="com">Company</p>
+     <p class="us">Blog<br>
+      About Us <br>
+      Careers<br>
+      Press<br>
+      Videos</p>
+   
+      <p class="customer">customer</p>
+      <p class="work">How it works <br>
+         iPhone app<br>
+         Android app</p>
+         <p class="Support">Support</p>
+         <p class="pk">Contact Us <br>
+            0304-111-1526<br>
+            support@kamkaj.pk</p>
+            <p class="ha">Mobile App</p><ion-icon name="logo-apple" class="apple"></ion-icon>
+            <ion-icon name="logo-android" class="and"></ion-icon>
+            <p class="privacy">Privacy Policy |</p>
+            <p  class="trem">Terms of Use</p>
+
+            
+
+
+
+
+</body>
+</html>
